@@ -1,0 +1,5 @@
+Notes
+chrome.browserAction.onClicked.addListener, background.js,  gets called when the user clicks on the browser browserAction
+listener present in the content.js executes the command sent from background.js
+content.js receives the event, it grabs the URL and send it back to background.js.
+background.js opens a new tab with the URL received from content.js
